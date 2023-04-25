@@ -52,3 +52,87 @@ html{
     left: 222px;
     top: 26px;
 }
+
+.head_menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #353535;
+    height: 18px;
+}
+
+.menu0{
+    position: absolute;
+    width: 121px;
+    /*height: 18px;*/
+    left: 535px;
+    top: 56px;
+}
+
+.menu1{
+    position: absolute;
+    width: 168px;
+    /*height: 18px;*/
+    left: 686px;
+    top: 57px;
+}
+
+.polygon{
+    position: absolute;
+    width: 15px;
+    height: 14.92px;
+    left: 862px;
+    top: 57px;
+    /*background: #353535;*/
+    /*transform: rotate(180deg);*/
+}
+
+.menu2{
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 905px;
+    top: 57px;
+}
+
+.polygon_projects{
+    position: absolute;
+    width: 15px;
+    height: 14.92px;
+    left: 986px;
+    top: 57px;
+}
+
+.menu3{
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 1028px;
+    top: 57px;
+}
+
+.menu4{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 1137px;
+    top: 57px;
+}
+
+.menu5{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 1336px;
+    top: 57px;
+}
+
+.polygon_lang{
+    position: absolute;
+    width: 15px;
+    height: 14.92px;
+    left: 1368px;
+    top: 57px;
+}
