@@ -43,3 +43,12 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+
+.headWrapper{
+    margin: 0 auto;
+    position: absolute;
+    width: 157.76px;
+    height: 80px;
+    left: 222px;
+    top: 26px;
+}
