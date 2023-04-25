@@ -136,3 +136,26 @@ html{
     left: 1368px;
     top: 57px;
 }
+
+.rect{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 138px;
+}
+
+.title{
+    position: absolute;
+    width: 535px;
+    height: 96px;
+    left: 228px;
+    top: 290px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #05194E;
+}
