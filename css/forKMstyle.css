@@ -159,3 +159,96 @@ html{
     color: #FFFFFF;
     text-shadow: 0px 4px 4px #05194E;
 }
+
+.descr_title{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 235px;
+    top: 404px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.bg{
+    position: absolute;
+    width: 1600px;
+    height: 3035px;
+    left: 0px;
+    top: 738px;
+    background: #E5EAF5;
+}
+
+.what_are_we_doing{
+    position: absolute;
+    width: 1200px;
+    height: 255px;
+    left: 200px;
+    top: 898px;
+    background: #102A6D;
+}
+
+.what_we_doing_descr{
+    position: absolute;
+    width: 222px;
+    height: 64.03px;
+    left: 263px;
+    top: 961px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+/* or 29px */
+    color: #FFFFFF;
+}
+
+.desription{
+    position: absolute;
+    width: 700px;
+    height: 130px;
+    left: 581px;
+    top: 951px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+/* or 17px */
+    color: #FFFFFF;
+}
+
+span{
+  font-weight: bold;
+}
+
+.underline-animation{
+
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.underline-animation::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
