@@ -44,7 +44,7 @@ html{
   box-sizing: inherit;
 }
 
-.headWrapper{
+.headWrapper{ /*logo*/
     margin: 0 auto;
     position: absolute;
     width: 157.76px;
@@ -63,7 +63,7 @@ html{
     height: 18px;
 }
 
-.menu0{
+.menu0{ /*1st button "about company"*/
     position: absolute;
     width: 121px;
     /*height: 18px;*/
@@ -71,7 +71,7 @@ html{
     top: 56px;
 }
 
-.menu1{
+.menu1{ /*2nd button "rotational joints"*/
     position: absolute;
     width: 168px;
     /*height: 18px;*/
@@ -79,7 +79,7 @@ html{
     top: 57px;
 }
 
-.polygon{
+.polygon{ /*triangle for submenu*/
     position: absolute;
     width: 15px;
     height: 14.92px;
@@ -89,7 +89,7 @@ html{
     /*transform: rotate(180deg);*/
 }
 
-.menu2{
+.menu2{ /*3rd button "projects"*/
     position: absolute;
     width: 72px;
     height: 18px;
@@ -105,7 +105,7 @@ html{
     top: 57px;
 }
 
-.menu3{
+.menu3{ /*4th button "partners"*/
     position: absolute;
     width: 82px;
     height: 18px;
@@ -113,7 +113,7 @@ html{
     top: 57px;
 }
 
-.menu4{
+.menu4{ /*5th button "contacts"*/
     position: absolute;
     width: 80px;
     height: 18px;
@@ -121,7 +121,7 @@ html{
     top: 57px;
 }
 
-.menu5{
+.menu5{ /*6th button "language"*/
     position: absolute;
     width: 22px;
     height: 18px;
@@ -137,7 +137,7 @@ html{
     top: 57px;
 }
 
-.rect{
+.rect{ /*background for description*/
     position: absolute;
     width: 1600px;
     height: 600px;
@@ -175,7 +175,7 @@ html{
     color: #FFFFFF;
 }
 
-.bg{
+.bg{ /*background for the rest of page*/
     position: absolute;
     width: 1600px;
     height: 3035px;
@@ -184,7 +184,7 @@ html{
     background: #E5EAF5;
 }
 
-.what_are_we_doing{
+.what_are_we_doing{ /*blue background for description about company's work*/
     position: absolute;
     width: 1200px;
     height: 255px;
@@ -208,7 +208,7 @@ html{
     color: #FFFFFF;
 }
 
-.desription{
+.desription{ /* class for the text description of company's work*/
     position: absolute;
     width: 700px;
     height: 130px;
@@ -223,12 +223,11 @@ html{
     color: #FFFFFF;
 }
 
-span{
+span{ /*bold text*/
   font-weight: bold;
 }
 
 .underline-animation{
-
     font-weight: bold;
     display: inline-block;
     position: relative;
@@ -253,6 +252,14 @@ span{
     transform-origin: bottom left;
 }
 
-a.underline-animation{
-  color: #FFFFFF;
+a.underline-animation{ /*making an object of animated link white*/
+  color: white;
+}
+
+a:link{
+    color: #353535;
+}
+
+a:visited{
+    color: #353535;
 }
