@@ -305,7 +305,6 @@ a:visited{
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
     display: block;
-
 }
 
 .dropdown-content a:hover {
@@ -517,5 +516,142 @@ Show the link that contains should open and close the topnav (.icon) */
     line-height: 120%;
     /* or 17px */
     color: #000000;
+}
 
+.imp_bg{
+    position: absolute;
+    width: 1200px;
+    height: 180px;
+    left: 200px;
+    top: 1933px;
+    background: #102A6D;
+}
+
+.imp{
+    position: absolute;
+    width: 222px;
+    height: 64.03px;
+    left: 264px;
+    top: 1996px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    color: #FFFFFF;
+}
+
+.imp_text{
+    position: absolute;
+    width: 590px;
+    height: 60px;
+    left: 613px;
+    top: 1993px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #FFFFFF;
+}
+
+.stage{
+    position: absolute;
+    width: 285px;
+    height: 120px;
+    left: 200px;
+    top: 2273px;
+    background: #FFFFFF;
+}
+
+.stages_dev {
+    position: absolute;
+    width: 230px;
+    height: 75.59px;
+    left: 242px;
+    top: 2294.73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    /* or 24px */
+    color: #232323;
+}
+
+/*.container {*/
+/*    !*Making the container a flexbox*!*/
+/*    display: grid;*/
+/*    !*Making equal spaced divs*!*/
+/*    justify-content: space-between;*/
+/*    background-color: aqua;*/
+/*    align-content: space-between;*/
+/*}*/
+
+/*.container div{*/
+/*    background-color: blueviolet;*/
+/*    !*margin: 20px;*!*/
+/*    width: 90px;*/
+/*    left: 602px;*/
+/*    height: 80px;*/
+/*    top: 2273px;*/
+/*    position: absolute;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.stage_num_bg{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+.container{
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 602px;
+    top: 2273px;
+}
+
+.cont_item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    color: #232323;
+}
+
+.stage_num_bg_sets{
+    margin-bottom: 20px;
+}
+
+.stage_num_bg{
+    background-color: #FFFFFF;
+    width: 90px;
+    top: 2273px;
+    height: 80px;
+    left: 602px;
+    border-radius: 5px;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+.stage_num{
+    position: absolute;
+    width: 35px;
+    height: 36px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.stage_num_last{
+    position: absolute;
+    width: 35px;
+    height: 36px;
+    margin-left: 40px;
+    margin-top: 10px;
 }
