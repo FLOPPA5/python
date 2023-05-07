@@ -712,7 +712,26 @@ Show the link that contains should open and close the topnav (.icon) */
     left: 508px;
     top: 3481px;
 }
-
+/*vertical space between links*/
 .dLink_sets{
-  margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+/*setting the down nav bar's link to white color*/
+.dLink_sets a:link{
+    color: #FFFFFF;
+}
+/*Down navigation bar's address and other attributes to contact the company*/
+.address{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 810px;
+    top: 3481px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 14px */
+    color: grey;
+    line-height: 1.5;
 }
