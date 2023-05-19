@@ -720,6 +720,9 @@ Show the link that contains should open and close the topnav (.icon) */
 .dLink_sets a:link{
     color: #FFFFFF;
 }
+.dLink_sets a:visited{
+    color: white;
+}
 /*Down navigation bar's address and other attributes to contact the company*/
 .address{
     position: absolute;
