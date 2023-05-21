@@ -238,3 +238,87 @@ Show the link that contains should open and close the topnav (.icon) */
     letter-spacing: 0.1em;
     color: #FFFFFF;
 }
+
+.catalog_pic{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 220px;
+    top: 359px;
+}
+
+.cat_pdf{
+    position: absolute;
+    width: 172.22px;
+    height: 34.44px;
+    left: 252.15px;
+    top: 370.48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+    text-decoration-line: underline;
+    color: #000000;
+}
+/*A catalog download button*/
+.btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 220px;
+    top: 679px;
+    background: #102A6D;
+    border: 2px solid #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.about_rot_joints{
+    position: absolute;
+    width: 700px;
+    height: 220px;
+    left: 580px;
+    top: 359px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #FFFFFF;
+}
+
+.aSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 282px;
+    top: 829px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.aSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+}
