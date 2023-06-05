@@ -307,18 +307,147 @@ Show the link that contains should open and close the topnav (.icon) */
     position: absolute;
     width: 570px;
     height: 300px;
-    left: 282px;
-    top: 829px;
+    left: 200px;
+    top: 899px;
     background: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
 }
 
 .aSerieText{
     position: absolute;
     margin-top: 70px;
     margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+p.aSerieText{
+    font-weight: 500;
+}
+
+.aTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.aTechCharVals{
+    position: absolute;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-top: 125px;
+}
+.aSerie1Pic{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 898px;
+}
+
+.aSerie2Pic{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 938px;
+}
+
+.oneFlow{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 898px;
+    background: #FFFFFF;
+}
+
+.oneFlowText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.oneFlowText{
+    font-weight: bold;
+}
+
+.twoFlow{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1058px;
+    background: #FFFFFF;
+}
+
+.twoFlowText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.twoFlowText{
+    font-weight: bold;
+}
+
+.aSerie3Pic{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 1098px;
+}
+
+.bSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 1358px;
+    background: #FFFFFF;
+}
+
+.bSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.bTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.bTechCharVals{
+    position: absolute;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-top: 125px;
+}
+
+.bSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 1358px;
 }
