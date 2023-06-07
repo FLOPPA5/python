@@ -303,6 +303,10 @@ Show the link that contains should open and close the topnav (.icon) */
     color: #FFFFFF;
 }
 
+p.about_rot_joints{
+    font-weight: 300;
+}
+
 .aSerie{
     position: absolute;
     width: 570px;
@@ -450,4 +454,55 @@ p.twoFlowText{
     height: 300px;
     left: 790px;
     top: 1358px;
+}
+
+.oneFlowB{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1358px;
+    background: #FFFFFF;
+}
+
+.oneFlowBText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.oneFlowBText{
+    font-weight: bold;
+}
+
+.oneFlowBPic{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 1398px;
+}
+
+.Attention{
+    position: absolute;
+    width: 285px;
+    height: 140px;
+    left: 1095px;
+    top: 1518px;
+    background: #FFFFFF;
+}
+
+.attentionText{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+p.attentionText{
+    font-weight: 500;
 }
