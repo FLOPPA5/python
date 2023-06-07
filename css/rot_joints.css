@@ -506,3 +506,222 @@ p.oneFlowBText{
 p.attentionText{
     font-weight: 500;
 }
+
+.cSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 1814px;
+    background: #FFFFFF;
+}
+
+.cSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.cTechCharVals{
+    position: absolute;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-top: 125px;
+}
+
+.cSerieBgPic{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 790px;
+    top: 1814px;
+    background: #FFFFFF;
+}
+
+.cSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 260px;
+    left: 790px;
+    top: 1854px;
+}
+
+.oneFlowC{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1814px;
+    background: #FFFFFF;
+}
+
+.oneFlowCText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.oneFlowCText{
+    font-weight: bold;
+}
+
+.oneFlowCBgPic2{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 1854px;
+    background: #FFFFFF;
+}
+
+.oneFlowPic2{
+    margin-left: 28px;
+}
+
+.twoFlowC{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1977px;
+    background: #FFFFFF;
+}
+
+.twoFlowCText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.twoFlowCText{
+    font-weight: bold;
+}
+
+.cPic3{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 2014px;
+}
+
+.dSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 2276px;
+    background: #FFFFFF;
+}
+
+.dSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.dTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.dTechCharVals{
+    position: absolute;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-top: 125px;
+}
+
+.dSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 2276px;
+}
+
+.oneFlowD{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 2276px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.oneFlowDText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.oneFlowDText{
+    font-weight: bold;
+}
+
+.dSeriePic2{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 2316px;
+    border: 1px solid #FFFFFF;
+}
+
+.twoFlowD{
+    position: absolute;
+    width: 285px;
+    height: 40.29px;
+    left: 1095px;
+    top: 2436px;
+    background: #FFFFFF;
+}
+
+.twoFlowDText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.twoFlowDText{
+    font-weight: bold;
+}
+
+.dSeriePic3{
+    position: absolute;
+    width: 285px;
+    height: 100.72px;
+    left: 1095px;
+    top: 2475.28px;
+}
