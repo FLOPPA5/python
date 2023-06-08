@@ -344,7 +344,7 @@ p.aSerieText{
     position: absolute;
     color: #000000;
     font-size: 16px;
-    margin-left: 450px;
+    margin-left: 430px;
     margin-top: 125px;
 }
 .aSerie1Pic{
@@ -444,7 +444,7 @@ p.twoFlowText{
     position: absolute;
     color: #000000;
     font-size: 16px;
-    margin-left: 450px;
+    margin-left: 430px;
     margin-top: 125px;
 }
 
@@ -540,7 +540,7 @@ p.attentionText{
     position: absolute;
     color: #000000;
     font-size: 16px;
-    margin-left: 450px;
+    margin-left: 430px;
     margin-top: 125px;
 }
 
@@ -655,7 +655,7 @@ p.twoFlowCText{
     position: absolute;
     color: #000000;
     font-size: 16px;
-    margin-left: 450px;
+    margin-left: 430px;
     margin-top: 125px;
 }
 
@@ -724,4 +724,123 @@ p.twoFlowDText{
     height: 100.72px;
     left: 1095px;
     top: 2475.28px;
+}
+
+.eSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 2736px;
+    background: #FFFFFF;
+}
+
+.eTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.eSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.eTechCharVals{
+    position: absolute;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 430px;
+    margin-top: 125px;
+    /*margin-right: 38px;*/
+}
+
+.eSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 2736px;
+}
+
+.oneFlowE{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 40.29px;
+    left: 1095px;
+    top: 2736px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.oneFlowEText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.oneFlowEText{
+    font-weight: bold;
+}
+
+.eSeriePic2Bg{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 100.72px;
+    left: 1095px;
+    top: 2775.28px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.eSeriePic2{
+    margin-left: 47px;
+    margin-top: 13.54px;
+}
+
+.twoFlowE{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 2900px;
+    background: #FFFFFF;
+}
+
+.twoFlowEText{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.twoFlowEText{
+    font-weight: bold;
+}
+
+.eSeriePic3Bg{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 2936px;
+    background: #FFFFFF;
+}
+
+.eSeriePic3{
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 2.1px;
 }
