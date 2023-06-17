@@ -337,15 +337,25 @@ p.aSerieText{
     margin-top: 125px;
     margin-left: 84px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .aTechCharVals{
     position: absolute;
     color: #000000;
-    font-size: 16px;
     margin-left: 430px;
     margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 .aSerie1Pic{
     position: absolute;
@@ -374,7 +384,12 @@ p.aSerieText{
 
 .oneFlowText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -394,7 +409,12 @@ p.oneFlowText{
 
 .twoFlowText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -437,15 +457,25 @@ p.twoFlowText{
     margin-top: 125px;
     margin-left: 84px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .bTechCharVals{
     position: absolute;
     color: #000000;
-    font-size: 16px;
     margin-left: 430px;
     margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .bSeriePic1{
@@ -467,7 +497,12 @@ p.twoFlowText{
 
 .oneFlowBText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -491,6 +526,12 @@ p.oneFlowBText{
     left: 1095px;
     top: 1518px;
     background: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .attentionText{
@@ -533,15 +574,25 @@ p.attentionText{
     margin-top: 125px;
     margin-left: 84px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .cTechCharVals{
     position: absolute;
     color: #000000;
-    font-size: 16px;
     margin-left: 430px;
     margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .cSerieBgPic{
@@ -572,7 +623,12 @@ p.attentionText{
 
 .oneFlowCText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -605,7 +661,12 @@ p.oneFlowCText{
 
 .twoFlowCText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -648,15 +709,25 @@ p.twoFlowCText{
     margin-top: 125px;
     margin-left: 84px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .dTechCharVals{
     position: absolute;
     color: #000000;
-    font-size: 16px;
     margin-left: 430px;
     margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .dSeriePic1{
@@ -680,7 +751,12 @@ p.twoFlowCText{
 
 .oneFlowDText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -709,7 +785,12 @@ p.oneFlowDText{
 
 .twoFlowDText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -740,7 +821,12 @@ p.twoFlowDText{
     margin-top: 125px;
     margin-left: 84px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .eSerieText{
@@ -758,7 +844,12 @@ p.twoFlowDText{
 .eTechCharVals{
     position: absolute;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 430px;
     margin-top: 125px;
     /*margin-right: 38px;*/
@@ -785,9 +876,14 @@ p.twoFlowDText{
 
 .oneFlowEText{
     position: absolute;
-    font-size: 18px;
     margin-left: 28.5px;
     margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 p.oneFlowEText{
@@ -821,7 +917,12 @@ p.oneFlowEText{
 
 .twoFlowEText{
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
     margin-left: 28.5px;
     margin-top: 10px;
 }
@@ -899,6 +1000,12 @@ p.ADSerie{
 .ADSerie {
     margin-top: 10px;
     margin-left: 28.5px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 .ADSeriePic2{
@@ -921,6 +1028,12 @@ p.ADSerie{
 .CBSerie{
     margin-left: 28px;
     margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
 }
 
 p.CBSerie{
@@ -995,4 +1108,99 @@ p.CBSerie{
 
 p.repairBlocksText{
     font-weight: bold;
+}
+
+.repBlocksPic{
+    position: absolute;
+    width: 285px;
+    height: 99.67px;
+    left: 1095px;
+    top: 3685.86px;
+}
+
+.repComplects{
+    position: absolute;
+    width: 285px;
+    height: 37.09px;
+    left: 1095px;
+    top: 3808.46px;
+    background: #FFFFFF;
+}
+
+.repComplectsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 9.05px;
+}
+
+p.repComplectsText{
+    font-weight: bold;
+}
+
+.repBlocksPic2 {
+    position: absolute;
+    width: 285px;
+    height: 99.67px;
+    left: 1095px;
+    top: 3845.33px;
+}
+
+.down_nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.down_nav_bg{
+    position: absolute;
+    width: 1600px;
+    height: 360px;
+    left: 0px;
+    top: 4104px;
+    background: #102A6D;
+}
+
+.down_nav_logo{
+    margin-left: 200px;
+    margin-top: 68px;
+}
+
+.down_nav_links_wrapper{
+    position: absolute;
+    left: 508px;
+    bottom: 60px;
+}
+/*vertical space between links*/
+.dLink_sets{
+    margin-bottom: 30px;
+}
+/*setting the down nav bar's link to white color*/
+.dLink_sets a:link{
+    color: #FFFFFF;
+}
+.dLink_sets a:visited{
+    color: white;
+}
+
+/*Down navigation bar's address and other attributes to contact the company*/
+.address{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 810px;
+    top: 4172px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 14px */
+    color: grey;
+    line-height: 1.5;
 }
