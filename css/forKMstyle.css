@@ -282,6 +282,11 @@ a:visited{
     margin: 0;
 }
 
+.dropbtn:hover{
+    transform: rotate(360deg);
+    transition: all .5s ease-out;
+}
+
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -308,8 +313,8 @@ a:visited{
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 /* When the screen is less than 600 pixels wide,
 hide all links, except for the first one ("Home").

@@ -153,6 +153,11 @@ a:visited{
   overflow: hidden;
 }
 
+.dropbtn:hover{
+    transform: rotate(360deg);
+    transition: all .5s ease-out;
+}
+
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
     font-size: 17px;
@@ -350,4 +355,156 @@ a:visited{
     color: #000000;
     margin-top: 17px;
     margin-left: 20px;
+}
+
+#fullpage {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+}
+
+.gallery img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    align-content: center;
+    object-position: center;
+    transition: transform ease-in-out 0.5s;
+}
+
+.waterServing{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 508px;
+    top: 1218px;
+}
+
+.tubeCleaning{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 508px;
+    top: 1524px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.tubeText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000
+}
+
+.freezeCollectors{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 812px;
+    top: 1218px;
+}
+
+.freezeCollectorsBg{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 813px;
+    top: 1524px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.freezeCollectorsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-left: 21px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.hydroCollectors{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 1118px;
+    top: 1218px;
+}
+
+.hydroCollectorsBg{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 1118px;
+    top: 1524px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.hydroCollectorsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.line1{
+    position: absolute;
+    width: 285px;
+    height: 0px;
+    left: 203px;
+    top: 2104px;
+    border: 1px solid #102A6D;
+}
+
+.rolganLines{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 508px;
+    top: 1744px;
+}
+
+.rolganLinesBg{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 508px;
+    top: 2044px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.rolganLinesText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/projects_style.css">
     <title>Проекти</title>
 </head>
-<body>
+<body onload="getPics()">
     <header class="header"> <!--This is the header menu on the top of the page-->
         <div class="headWrapper">
             <div class="header__logo">
@@ -90,9 +90,35 @@
     <div class="metalurgy">
         <p class="metal">Металургія</p>
     </div>
-    <img src="./img/Система%20подачи%20газа%201.svg" alt="gas system pic" class="gasSys">
-    <img src="./img/Установка%20сушки%20ферросплавов%201.svg" alt="dry system pic" class="drySys">
-    <img src="./img/Rectangle%2060.svg" alt="smoking devices pic" class="smokingDevices">
+<!--    <img src="./img/Система%20подачи%20газа%201.svg" alt="gas system pic" class="gasSys">-->
+<!--    <img src="./img/Установка%20сушки%20ферросплавов%201.svg" alt="dry system pic" class="drySys">-->
+<!--    <img src="./img/Rectangle%2060.svg" onclick="enlarge()" id="img" class="smokingDevices">-->
+<!--  Div for pictures to enlarge  -->
+    <div class="container">
+        <div class="gallery">
+            <img src="./img/Система%20подачи%20газа%201.svg" alt="gas system pic" class="gasSys">
+            <img src="./img/Установка%20сушки%20ферросплавов%201.svg" alt="dry system pic" class="drySys">
+            <img src="./img/Rectangle%2060.svg" alt="smoking devices pic" class="smokingDevices">
+            <img src="./img/Коллектора%20охлаждения%201.svg" alt="freezing collectors pic" class="freezeCollectors">
+            <img src="./img/Rectangle%2061.svg" alt="hydro collectors pic" class="hydroCollectors">
+            <img src="./img/Обеспечивающее%20оборудование%201.svg" alt="rolgan lines pic" class="rolganLines">
+            <img src="./img/Подача%20воды%202.svg" alt="water serving pic" class="waterServing">
+        </div>
+    </div>
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+<!-- Script for enlarging pictures by click -->
+    <script type="text/javascript">
+        function getPics() {}
+        const imgs = document.querySelectorAll('.gallery img');
+        const fullPage = document.querySelector('#fullpage');
+
+        imgs.forEach(img => {
+          img.addEventListener('click', function() {
+            fullPage.style.backgroundImage = 'url(' + img.src + ')';
+            fullPage.style.display = 'block';
+          });
+        });
+    </script>
     <div class="gasSysText">
         <p class="gasText">
             Система подачі газу
@@ -106,6 +132,27 @@
     <div class="smokSysText">
         <p class="smokText">
             Палильні пристрої
+        </p>
+    </div>
+    <div class="tubeCleaning">
+        <p class="tubeText">
+            Очищення труб від окалини
+        </p>
+    </div>
+    <div class="freezeCollectorsBg">
+        <p class="freezeCollectorsText">
+            Колектори охолодження
+        </p>
+    </div>
+    <div class="hydroCollectorsBg">
+        <p class="hydroCollectorsText">
+            Колектори гідрозбиву
+        </p>
+    </div>
+    <div class="line1"></div>
+    <div class="rolganLinesBg">
+        <p class="rolganLinesText">
+            Лініїї рольганів
         </p>
     </div>
 </body>
