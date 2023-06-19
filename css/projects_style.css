@@ -508,3 +508,361 @@ a:visited{
     margin-top: 15px;
     color: #000000;
 }
+
+.dozators{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 812px;
+    top: 1744px;
+}
+
+.dozatorsBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 812px;
+    top: 2044px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.dozatorsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.directDevices{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 1118px;
+    top: 1744px;
+}
+
+.directDevicesBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 1117px;
+    top: 2044px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.directDevicesText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.papersProd{
+    position: absolute;
+    width: 285px;
+    height: 120px;
+    left: 203px;
+    top: 2264px;
+    background: #FFFFFF;
+}
+
+.papersProdText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    /* or 24px */
+    margin-left: 42px;
+    margin-top: 23px;
+    color: #232323;
+}
+
+.line2{
+    position: absolute;
+    width: 285px;
+    height: 0px;
+    left: 203px;
+    top: 2624px;
+    border: 1px solid #102A6D;
+}
+
+.drying{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 508px;
+    top: 2264px;
+}
+
+.dryingBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 508px;
+    top: 2564px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.dryingText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.grossCleaning{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 813px;
+    top: 2264px;
+}
+
+.grossCleaningBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 813px;
+    top: 2564px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.grossCleaningText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.hydroKnife{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 1118px;
+    top: 2264px;
+}
+
+.hydroKnifeBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 1118px;
+    top: 2564px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.hydroKnifeText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.othersBg{
+    position: absolute;
+    width: 285px;
+    height: 120px;
+    left: 203px;
+    top: 2784px;
+    background: #FFFFFF;
+}
+
+.othersText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    /* or 24px */
+    margin-left: 42px;
+    margin-top: 23px;
+    color: #232323;
+}
+
+.line3{
+    position: absolute;
+    width: 285px;
+    height: 0px;
+    left: 203px;
+    top: 3144px;
+    border: 1px solid #102A6D;
+}
+
+.zhmih{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 508px;
+    top: 2784px;
+}
+
+.zhmihBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 508px;
+    top: 3084px;
+    background: #FFFFFF;
+    border: 1px solid #102A6D;
+}
+
+.zhmihText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.hangar{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 813px;
+    top: 2784px;
+}
+
+.hangarBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 813px;
+    top: 3084px;
+    background: #FFFFFF;
+    border: 1px solid #102A6D;
+}
+
+.hangarText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dustOpressor{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    left: 1118px;
+    top: 2784px;
+}
+
+.dustOpressorBg{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 1118px;
+    top: 3084px;
+    background: #FFFFFF;
+    border: 1px solid #102A6D;
+}
+
+.dustOpressorText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.down_nav_bg{
+    position: absolute;
+    width: 1600px;
+    height: 360px;
+    left: 0px;
+    top: 3413px;
+    background: #102A6D;
+}
+
+.down_nav_logo{
+    position: absolute;
+    width: 157.76px;
+    height: 78.46px;
+    left: 200px;
+    top: 3481px;
+}
+
+.down_nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.down_nav_links_wrapper{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 508px;
+    top: 3481px;
+}
+/*vertical space between links*/
+.dLink_sets{
+    margin-bottom: 30px;
+}
+/*setting the down nav bar's link to white color*/
+.dLink_sets a:link{
+    color: #FFFFFF;
+}
+.dLink_sets a:visited{
+    color: white;
+}
+/*Down navigation bar's address and other attributes to contact the company*/
+.address{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 810px;
+    top: 3481px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 14px */
+    color: grey;
+    line-height: 1.5;
+}

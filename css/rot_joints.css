@@ -150,6 +150,11 @@ a:visited{
   float: left;
   overflow: hidden;
 }
+/* Rotation animation*/
+.dropbtn:hover{
+    transform: rotate(360deg);
+    transition: all .5s ease-out;
+}
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
@@ -1204,4 +1209,3 @@ p.repComplectsText{
     color: grey;
     line-height: 1.5;
 }
-
