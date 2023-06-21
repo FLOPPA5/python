@@ -139,7 +139,7 @@ html{
 
 .rect{ /*background for description*/
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 600px;
     left: 0px;
     top: 138px;
@@ -177,7 +177,7 @@ html{
 
 .bg{ /*background for the rest of page*/
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 3035px;
     left: 0px;
     top: 738px;
@@ -687,7 +687,7 @@ Show the link that contains should open and close the topnav (.icon) */
 
 .down_nav_bg{
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 360px;
     left: 0px;
     top: 3413px;
@@ -740,6 +740,6 @@ Show the link that contains should open and close the topnav (.icon) */
     font-weight: 300;
     font-size: 14px;
     /* or 14px */
-    color: grey;
+    color: white;
     line-height: 1.5;
 }

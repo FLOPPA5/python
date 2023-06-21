@@ -212,7 +212,7 @@ Show the link that contains should open and close the topnav (.icon) */
 
 .bg{ /*background for the rest of page*/
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 4325px;
     left: 0px;
     top: 140px;
@@ -1165,7 +1165,7 @@ p.repComplectsText{
 
 .down_nav_bg{
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 360px;
     left: 0px;
     top: 4104px;
@@ -1206,6 +1206,6 @@ p.repComplectsText{
     font-weight: 300;
     font-size: 14px;
     /* or 14px */
-    color: grey;
+    color: white;
     line-height: 1.5;
 }

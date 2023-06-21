@@ -143,6 +143,10 @@ a:link{
     color: #353535;
 }
 
+a.contacts_link:visited{
+    color: #353535;
+}
+
 a:visited{
     color: #353535;
 }
@@ -202,13 +206,13 @@ a:visited{
 
 .mainBg{
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 3525px;
     left: 0px;
     top: 140px;
     background: #E5EAF5;
-    min-width: 1600px;
-    min-height: 3600px;
+    max-width: 1519px;
+    max-height: 3600px;
 }
 
 .projects_char{
@@ -810,7 +814,7 @@ a:visited{
 
 .down_nav_bg{
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 360px;
     left: 0px;
     top: 3413px;
@@ -863,6 +867,6 @@ a:visited{
     font-weight: 300;
     font-size: 14px;
     /* or 14px */
-    color: grey;
+    color: white;
     line-height: 1.5;
 }

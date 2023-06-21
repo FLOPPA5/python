@@ -231,7 +231,7 @@ a:visited{
 
 .pageBg{
     position: absolute;
-    width: 1600px;
+    width: 1519px;
     height: 2200px;
     left: 0px;
     top: 140px;
@@ -286,4 +286,147 @@ a:visited{
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
+}
+
+.lechlerText{
+    position: absolute;
+    margin-top: 65px;
+    margin-right: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #000000;
+}
+
+.elbeText{
+    position: absolute;
+    margin-top: 65px;
+    margin-right: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #000000;
+}
+
+.schwerText{
+    position: absolute;
+    margin-top: 67px;
+    margin-right: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #000000;
+}
+
+.redecamText{
+    position: absolute;
+    margin-top: 67px;
+    margin-right: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #000000;
+}
+
+.lechlerPic{
+    position: absolute;
+    width: 590px;
+    height: 260px;
+    left: 813px;
+    top: 300px;
+}
+
+.elbePic{
+    position: absolute;
+    width: 590px;
+    height: 260px;
+    left: 813px;
+    top: 720px;
+}
+
+.schwerPic{
+    position: absolute;
+    width: 590px;
+    height: 260px;
+    left: 813px;
+    top: 1140px;
+}
+
+.redecamPic{
+    position: absolute;
+    width: 590px;
+    height: 260px;
+    left: 808px;
+    top: 1560px;
+}
+
+.down_nav_bg{
+    position: absolute;
+    width: 1519px;
+    height: 360px;
+    left: 0px;
+    top: 1980px;
+    background: #102A6D;
+}
+
+.down_nav_logo{
+    position: absolute;
+    width: 157.76px;
+    height: 78.46px;
+    left: 200px;
+    top: 2048px;
+}
+
+.down_nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.down_nav_links_wrapper{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 508px;
+    top: 2048px;
+}
+/*vertical space between links*/
+.dLink_sets{
+    margin-bottom: 30px;
+}
+/*setting the down nav bar's link to white color*/
+.dLink_sets a:link{
+    color: #FFFFFF;
+}
+.dLink_sets a:visited{
+    color: white;
+}
+/*Down navigation bar's address and other attributes to contact the company*/
+.address{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 810px;
+    top: 2048px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 14px */
+    color: white;
+    line-height: 1.5;
 }
