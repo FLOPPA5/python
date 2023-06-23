@@ -512,7 +512,7 @@ p.twoFlowText{
     margin-top: 10px;
 }
 
-p.oneFlowBText{
+a.oneFlowBText{
     font-weight: bold;
 }
 
@@ -638,7 +638,7 @@ p.attentionText{
     margin-top: 10px;
 }
 
-p.oneFlowCText{
+a.oneFlowCText{
     font-weight: bold;
 }
 
@@ -676,7 +676,7 @@ p.oneFlowCText{
     margin-top: 10px;
 }
 
-p.twoFlowCText{
+a.twoFlowCText{
     font-weight: bold;
 }
 
@@ -1195,7 +1195,7 @@ p.repComplectsText{
 }
 
 /*Down navigation bar's address and other attributes to contact the company*/
-.address{
+.address {
     position: absolute;
     width: 250px;
     height: 240px;
@@ -1208,4 +1208,8 @@ p.repComplectsText{
     /* or 14px */
     color: white;
     line-height: 1.5;
+}
+
+a.link1:visited{
+    color: #000000;
 }
