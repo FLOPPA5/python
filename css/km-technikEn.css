@@ -65,17 +65,18 @@ html{
 
 .menu0{ /*1st button "about company"*/
     position: absolute;
-    width: 121px;
+    width: 130px;
     /*height: 18px;*/
-    left: 535px;
-    top: 56px;
+    left: 622px;
+    top: 57px;
 }
 
 .menu1{ /*2nd button "rotational joints"*/
     position: absolute;
     width: 168px;
+    height: 10px;
     /*height: 18px;*/
-    left: 686px;
+    left: 778px;
     top: 57px;
 }
 
@@ -83,7 +84,7 @@ html{
     position: absolute;
     width: 15px;
     height: 14.92px;
-    left: 862px;
+    left: 888px;
     top: 57px;
     /*background: #353535;*/
     /*transform: rotate(180deg);*/
@@ -93,7 +94,7 @@ html{
     position: absolute;
     width: 72px;
     height: 18px;
-    left: 905px;
+    left: 930px;
     top: 57px;
 }
 
@@ -101,7 +102,7 @@ html{
     position: absolute;
     width: 15px;
     height: 14.92px;
-    left: 986px;
+    left: 1006px;
     top: 57px;
 }
 
@@ -109,7 +110,7 @@ html{
     position: absolute;
     width: 82px;
     height: 18px;
-    left: 1028px;
+    left: 1048px;
     top: 57px;
 }
 
@@ -117,7 +118,7 @@ html{
     position: absolute;
     width: 80px;
     height: 18px;
-    left: 1137px;
+    left: 1144px;
     top: 57px;
 }
 
@@ -135,7 +136,6 @@ html{
     height: 14.92px;
     left: 1368px;
     top: 57px;
-    max-width: 30px;
 }
 
 .rect{ /*background for description*/
