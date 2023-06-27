@@ -1,0 +1,1215 @@
+/* roboto-300 - cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v30-cyrillic-ext_latin-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto-v30-cyrillic-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto-v30-cyrillic-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-900 - cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-cyrillic-ext_latin-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto-v30-cyrillic-ext_latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v30-cyrillic-ext_latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+.headWrapper{ /*logo*/
+    margin: 0 auto;
+    position: absolute;
+    width: 157.76px;
+    height: 80px;
+    left: 222px;
+    top: 26px;
+}
+
+.head_menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #353535;
+    height: 18px;
+}
+
+.menu0{ /*1st button "about company"*/
+    position: absolute;
+    width: 131px;
+    /*height: 18px;*/
+    left: 620px;
+    top: 56px;
+}
+
+.menu1{ /*2nd button "rotational joints"*/
+    position: absolute;
+    width: 168px;
+    /*height: 18px;*/
+    left: 776px;
+    top: 57px;
+}
+
+.polygon{ /*triangle for submenu*/
+    position: absolute;
+    width: 15px;
+    height: 14.92px;
+    left: 886px;
+    top: 57px;
+    /*background: #353535;*/
+    /*transform: rotate(180deg);*/
+}
+
+.menu2{ /*3rd button "projects"*/
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 928px;
+    top: 57px;
+}
+
+.polygon_projects{
+    position: absolute;
+    width: 15px;
+    height: 14.92px;
+    left: 1004px;
+    top: 57px;
+}
+
+.menu3{ /*4th button "partners"*/
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 1046px;
+    top: 57px;
+}
+
+.menu4{ /*5th button "contacts"*/
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 1142px;
+    top: 57px;
+}
+
+.menu5{ /*6th button "language"*/
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 1336px;
+    top: 57px;
+}
+
+.polygon_lang{
+    position: absolute;
+    width: 15px;
+    height: 14.92px;
+    left: 1368px;
+    top: 57px;
+}
+
+a:link{
+    color: #353535;
+}
+
+a:visited{
+    color: #353535;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Rotation animation*/
+.dropbtn:hover{
+    transform: rotate(360deg);
+    transition: all .5s ease-out;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* When the screen is less than 600 pixels wide,
+hide all links, except for the first one ("Home").
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+.bg{ /*background for the rest of page*/
+    position: absolute;
+    width: 1519px;
+    height: 4325px;
+    left: 0px;
+    top: 140px;
+    background: #E5EAF5;
+}
+
+.cbg{
+    position: absolute;
+    width: 1200px;
+    height: 440px;
+    left: 200px;
+    top: 299px;
+    background: #102A6D;
+}
+
+.rotational_joints{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 220px;
+    top: 319px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.catalog_pic{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 220px;
+    top: 359px;
+}
+
+.cat_pdf{
+    position: absolute;
+    width: 172.22px;
+    height: 34.44px;
+    left: 252.15px;
+    top: 370.48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+    text-decoration-line: underline;
+    color: #000000;
+}
+/*A catalog download button*/
+.btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 220px;
+    top: 679px;
+    background: #102A6D;
+    border: 2px solid #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.about_rot_joints{
+    position: absolute;
+    width: 700px;
+    height: 220px;
+    left: 580px;
+    top: 359px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    color: #FFFFFF;
+}
+
+p.about_rot_joints{
+    font-weight: 300;
+}
+
+.aSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 899px;
+    background: #FFFFFF;
+}
+
+.aSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+p.aSerieText{
+    font-weight: 500;
+}
+
+.aTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.aTechCharVals{
+    position: absolute;
+    color: #000000;
+    margin-left: 430px;
+    margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+.aSerie1Pic{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 898px;
+}
+
+.aSerie2Pic{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 938px;
+}
+
+.oneFlow{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 898px;
+    background: #FFFFFF;
+}
+
+.oneFlowText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.oneFlowText{
+    font-weight: bold;
+}
+
+.twoFlow{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1058px;
+    background: #FFFFFF;
+}
+
+.twoFlowText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.twoFlowText{
+    font-weight: bold;
+}
+
+.aSerie3Pic{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 1098px;
+}
+
+.bSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 1358px;
+    background: #FFFFFF;
+}
+
+.bSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.bTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.bTechCharVals{
+    position: absolute;
+    color: #000000;
+    margin-left: 430px;
+    margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.bSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 1358px;
+}
+
+.oneFlowB{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1358px;
+    background: #FFFFFF;
+}
+
+.oneFlowBText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+a.oneFlowBText{
+    font-weight: bold;
+}
+
+.oneFlowBPic{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 1398px;
+}
+
+.Attention{
+    position: absolute;
+    width: 285px;
+    height: 140px;
+    left: 1095px;
+    top: 1518px;
+    background: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.attentionText{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+p.attentionText{
+    font-weight: 500;
+}
+
+.cSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 1814px;
+    background: #FFFFFF;
+}
+
+.cSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cTechCharVals{
+    position: absolute;
+    color: #000000;
+    margin-left: 430px;
+    margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cSerieBgPic{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 790px;
+    top: 1814px;
+    background: #FFFFFF;
+}
+
+.cSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 260px;
+    left: 790px;
+    top: 1854px;
+}
+
+.oneFlowC{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1814px;
+    background: #FFFFFF;
+}
+
+.oneFlowCText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+a.oneFlowCText{
+    font-weight: bold;
+}
+
+.oneFlowCBgPic2{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 1854px;
+    background: #FFFFFF;
+}
+
+.oneFlowPic2{
+    margin-left: 28px;
+}
+
+.twoFlowC{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 1977px;
+    background: #FFFFFF;
+}
+
+.twoFlowCText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+a.twoFlowCText{
+    font-weight: bold;
+}
+
+.cPic3{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 2014px;
+}
+
+.dSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 2276px;
+    background: #FFFFFF;
+}
+
+.dSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.dTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.dTechCharVals{
+    position: absolute;
+    color: #000000;
+    margin-left: 430px;
+    margin-top: 125px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.dSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 2276px;
+}
+
+.oneFlowD{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 2276px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.oneFlowDText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+a.oneFlowDText{
+    font-weight: bold;
+}
+
+.dSeriePic2{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 2316px;
+    border: 1px solid #FFFFFF;
+}
+
+.twoFlowD{
+    position: absolute;
+    width: 285px;
+    height: 40.29px;
+    left: 1095px;
+    top: 2436px;
+    background: #FFFFFF;
+}
+
+.twoFlowDText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+a.twoFlowDText{
+    font-weight: bold;
+}
+
+.dSeriePic3{
+    position: absolute;
+    width: 285px;
+    height: 100.72px;
+    left: 1095px;
+    top: 2475.28px;
+}
+
+.eSerie{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 2736px;
+    background: #FFFFFF;
+}
+
+.eTechChar{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 84px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.eSerieText{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.eTechCharVals{
+    position: absolute;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 430px;
+    margin-top: 125px;
+    /*margin-right: 38px;*/
+}
+
+.eSeriePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 2736px;
+}
+
+.oneFlowE{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 40.29px;
+    left: 1095px;
+    top: 2736px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.oneFlowEText{
+    position: absolute;
+    margin-left: 28.5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+p.oneFlowEText{
+    font-weight: bold;
+}
+
+.eSeriePic2Bg{
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 100.72px;
+    left: 1095px;
+    top: 2775.28px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.eSeriePic2{
+    margin-left: 47px;
+    margin-top: 13.54px;
+}
+
+.twoFlowE{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 2900px;
+    background: #FFFFFF;
+}
+
+.twoFlowEText{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 10px;
+}
+
+p.twoFlowEText{
+    font-weight: bold;
+}
+
+.eSeriePic3Bg{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 2936px;
+    background: #FFFFFF;
+}
+
+.eSeriePic3{
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 2.1px;
+}
+
+.exclusive{
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    left: 200px;
+    top: 3196px;
+    background: #FFFFFF;
+}
+
+.exclusiveText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin-left: 82px;
+    margin-top: 70px;
+}
+
+.excComment{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 82px;
+    margin-bottom: 35px;
+}
+
+.exclusivePic1{
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    left: 790px;
+    top: 3196px;
+}
+
+.exclADSerie{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 3196px;
+    background: #FFFFFF;
+}
+
+p.ADSerie{
+    font-weight: bold;
+}
+
+.ADSerie {
+    margin-top: 10px;
+    margin-left: 28.5px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.ADSeriePic2{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 3236px;
+}
+
+.exclCBSerie{
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 1095px;
+    top: 3356px;
+    background: #FFFFFF;
+}
+
+.CBSerie{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+p.CBSerie{
+    font-weight: bold;
+}
+
+.CBSeriePic3{
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 1095px;
+    top: 3396px;
+}
+
+.forRepair{
+    position: absolute;
+    width: 570px;
+    height: 299px;
+    left: 200px;
+    top: 3646px;
+    background: #FFFFFF;
+}
+
+.forRepairText{
+    margin-left: 82px;
+    margin-top: 69px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.forRepairComment{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 82px;
+}
+
+.forRepairPic1{
+    position: absolute;
+    width: 285px;
+    height: 299px;
+    left: 790px;
+    top: 3645px;
+}
+
+.repairBlocks{
+    position: absolute;
+    width: 285px;
+    height: 39.87px;
+    left: 1095px;
+    top: 3646px;
+    background: #FFFFFF;
+}
+
+.repairBlocksText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 9.97px;
+}
+
+p.repairBlocksText{
+    font-weight: bold;
+}
+
+.repBlocksPic{
+    position: absolute;
+    width: 285px;
+    height: 99.67px;
+    left: 1095px;
+    top: 3685.86px;
+}
+
+.repComplects{
+    position: absolute;
+    width: 285px;
+    height: 37.09px;
+    left: 1095px;
+    top: 3808.46px;
+    background: #FFFFFF;
+}
+
+.repComplectsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 28.5px;
+    margin-top: 9.05px;
+}
+
+p.repComplectsText{
+    font-weight: bold;
+}
+
+.repBlocksPic2 {
+    position: absolute;
+    width: 285px;
+    height: 99.67px;
+    left: 1095px;
+    top: 3845.33px;
+}
+
+.down_nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.down_nav_bg{
+    position: absolute;
+    width: 1519px;
+    height: 360px;
+    left: 0px;
+    top: 4104px;
+    background: #102A6D;
+}
+
+.down_nav_logo{
+    margin-left: 200px;
+    margin-top: 68px;
+}
+
+.down_nav_links_wrapper{
+    position: absolute;
+    left: 508px;
+    bottom: 60px;
+}
+/*vertical space between links*/
+.dLink_sets{
+    margin-bottom: 30px;
+}
+/*setting the down nav bar's link to white color*/
+.dLink_sets a:link{
+    color: #FFFFFF;
+}
+.dLink_sets a:visited{
+    color: white;
+}
+
+/*Down navigation bar's address and other attributes to contact the company*/
+.address {
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 810px;
+    top: 4172px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 14px */
+    color: white;
+    line-height: 1.5;
+}
+
+a.link1:visited{
+    color: #000000;
+}
