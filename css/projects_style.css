@@ -270,26 +270,26 @@ a:visited{
     color: #232323;
 }
 
-.gasSys{
+.lgtDevices{
     position: absolute;
-    width: 285px;
-    height: 280px;
-    left: 505px;
     top: 698px;
+    left: 508px;
+    max-width: 280px;
+    max-height: 280px;
 }
 
 .drySys{
     position: absolute;
-    width: 280px;
-    height: 280px;
+    max-width: 280px;
+    max-height: 280px;
     left: 810px;
     top: 698px;
 }
 
-.smokingDevices{
+.hydroColls{
     position: absolute;
-    width: 285px;
-    height: 280px;
+    max-width: 285px;
+    max-height: 280px;
     left: 1115px;
     top: 698px;
 }
@@ -411,13 +411,14 @@ a:visited{
     line-height: 120%;
     margin-left: 20px;
     margin-top: 15px;
-    color: #000000
+    margin-right: 30px;
+    color: #000000;
 }
 
 .freezeCollectors{
     position: absolute;
-    width: 285px;
-    height: 280px;
+    max-width: 285px;
+    max-height: 280px;
     left: 812px;
     top: 1218px;
 }
