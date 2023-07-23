@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/projects_EN.css">
+    <title>Projects</title>
+</head>
+<body onload="getPics()">
+    <header class="header"> <!--This is the header menu on the top of the page-->
+        <div class="headWrapper">
+            <div class="header__logo">
+                <a href="./km-technik_En.html" class="header__logo-link">
+                    <img src="./img/Логотип_Б%202KMLogo.svg" alt="KM-Technik" class="header_logo_pic">
+                </a>
+            </div>
+        </div>
+        <div class="head_menu">
+            <div class="menu0">
+                <a href="./km-technik_En.html" class="about_company-link">About Company</a>
+            </div>
+            <div class="menu1">
+                <a href="./rot_jointsEN.html" class="joints-link">Rotary joints</a>
+            </div>
+            <div class="dropdown">
+                <div class="polygon">
+                    <button class="dropbtn">
+                        <img src="./img/Polygon%2026.svg" alt="Ротаційні з'єднання">
+                        <i class="fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./rot_jointsEN.html#serie a" class="link1">Type A</a>
+                        <a href="./rot_jointsEN.html#serie b" class="link2">Type B</a>
+                        <a href="./rot_jointsEN.html#serie c" class="link3">Type C</a>
+                        <a href="./rot_jointsEN.html#serie d" class="link4">Type D</a>
+                        <a href="./rot_jointsEN.html#serie e" class="link5">Type E</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu2">
+                    <a href="./projects_EN.html" class="projects_link">Projects</a>
+                </div>
+            <div class="dropdown">
+                <div class="polygon_projects">
+                    <button class="dropbtn">
+                        <img src="./img/Polygon%2026.svg" alt="Проекти">
+                        <i class="fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#metalurgy" class="link1">Metallurgy</a>
+                        <a href="#paper manufacture" class="link2">Paper production</a>
+                        <a href="#other" class="link3">Other</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu3">
+                <a href="./partners_EN.html" class="partners_link">Partners</a>
+            </div>
+            <div class="menu4">
+                <a href="#address" class="contacts_link">Contacts</a>
+            </div>
+            <div class="menu5">
+                <a href="./projects.html" class="lang_link">Eng</a>
+            </div>
+            <div class="dropdown">
+                <div class="polygon_lang">
+                    <button class="dropbtn">
+                        <img src="./img/Polygon%2026.svg" alt="Uk">
+                        <i class="fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./projects.html" class="ENG">Uk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mainBg"></div>
+    <div class="projects_char">
+        <p class="projects">Projects</p>
+    </div>
+    <p class="projectsCharText">
+                        Our company develops and manufactures industrial equipment for enterprises of various industries,
+            <br>such as metallurgy, paper production, animal husbandry production, food industry.
+            <br>We offer reasonable technological solutions to the specific production tasks facing the industrial enterprise.
+            <br>Many years of experience and successful projects give us the confidence in their success.
+            <br>In the process of work, advanced technologies and modern components of domestic
+            <br>and foreign manufacturers are used.
+        </p>
+    <div class="metalurgy">
+        <p class="metal" id="metalurgy">Metallurgy</p>
+    </div>
+<!--    <img src="./img/Система%20подачи%20газа%201.svg" alt="gas system pic" class="gasSys">-->
+<!--    <img src="./img/Установка%20сушки%20ферросплавов%201.svg" alt="dry system pic" class="drySys">-->
+<!--    <img src="./img/Rectangle%2060.svg" onclick="enlarge()" id="img" class="smokingDevices">-->
+<!--  Div for pictures to enlarge  -->
+    <div class="container">
+        <div class="gallery">
+            <img src="./img/Пальникові-присторї_.jpg" alt="gas system pic" class="lgtDevices">
+            <img src="./img/Колектор-охолодження_.jpg" alt="dry system pic" class="drySys">
+            <img src="./img/Колектори-гідрозбиву_web.jpg" alt="smoking devices pic" class="hydroColls">
+            <img src="./img/Рольганги_.jpg" alt="freezing collectors pic" class="freezeCollectors">
+            <img src="./img/Механізми-обладнання_web.jpg" alt="hydro collectors pic" class="hydroCollectors">
+            <img src="./img/Притискний-валок_web.jpg" alt="post-drying device pic" class="drying">
+            <img src="./img/Візок-притискного-валка_web.jpg" alt="gross cleaning equipment pic" class="grossCleaning">
+            <img src="./img/Деталі-обладнання_web.jpg" alt="equipment for paper mass cutting pic" class="hydroKnife">
+            <img src="./img/Зволоження-кормів_web.jpg" alt="equipment for corn stuff pic" class="zhmih">
+            <img src="./img/Вузли-за-замовленням_web.jpg" alt="hangar pic" class="hangar">
+            <img src="./img/Токарні-та-фрезерні-операції_web.jpg" alt="dust opressor pic" class="dustOpressor">
+            <img src="./img/Устаткування-очистки-труб_web.jpg" alt="water serving pic" class="waterServing">
+        </div>
+    </div>
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+<!-- Script for enlarging pictures by click -->
+    <script type="text/javascript">
+        function getPics() {}
+        const imgs = document.querySelectorAll('.gallery img');
+        const fullPage = document.querySelector('#fullpage');
+
+        imgs.forEach(img => {
+          img.addEventListener('click', function() {
+            fullPage.style.backgroundImage = 'url(' + img.src + ')';
+            fullPage.style.display = 'block';
+          });
+        });
+    </script>
+    <div class="gasSysText">
+        <p class="gasText">
+            Burner devices
+        </p>
+    </div>
+    <div class="drySysText">
+        <p class="dryText">
+            Cooling collectors
+        </p>
+    </div>
+    <div class="smokSysText">
+        <p class="smokText">
+            Descaling collectors
+        </p>
+    </div>
+    <div class="tubeCleaning">
+        <p class="tubeText">
+            Cleaning of corrosion-resistant steel pipes from grease
+        </p>
+    </div>
+    <div class="freezeCollectorsBg">
+        <p class="freezeCollectorsText">
+            Roller tables
+        </p>
+    </div>
+    <div class="hydroCollectorsBg">
+        <p class="hydroCollectorsText">
+            Supportive equipment mechanisms
+        </p>
+    </div>
+    <div class="line1"></div>
+    <div class="papersProd">
+        <p class="papersProdText" id="paper manufacture">
+            Paper production
+        </p>
+    </div>
+    <div class="line2"></div>
+    <div class="dryingBg">
+        <p class="dryingText">
+            Presser shaft equipment
+        </p>
+    </div>
+    <div class="grossCleaningBg">
+        <p class="grossCleaningText">
+            Trolley for mounting <br>the presser shaft
+        </p>
+    </div>
+    <div class="hydroKnifeBg">
+        <p class="hydroKnifeText">
+            Units of equipment for paper <br>production
+        </p>
+    </div>
+    <div class="othersBg">
+        <p class="othersText" id="other">
+            Other
+        </p>
+    </div>
+    <div class="zhmihBg">
+        <p class="zhmihText">
+            Equipment for moistening feed
+        </p>
+    </div>
+    <div class="hangarBg">
+        <p class="hangarText">
+            Execution of units and parts according <br>to the drawings of the Customer
+        </p>
+    </div>
+    <div class="dustOpressorBg">
+        <p class="dustOpressorText">
+            Execution of turning and milling operations
+        </p>
+    </div>
+    <div class="down_nav">
+        <div class="down_nav_bg">
+            <img src="./img/Логотип_фон%201.svg" alt="down navigation logo" class="down_nav_logo">
+        </div>
+        <ul class="down_nav_links_wrapper">
+            <li class="dLink_sets">
+                <a href="./km-technik_En.html" class="d_link_about_company">About Company</a>
+            </li>
+            <li class="dLink_sets">
+                <a href="./rot_jointsEN.html" class="d_link_about_company">Rotary joints</a>
+            </li>
+            <li class="dLink_sets">
+                <a href="./projects_EN.html" class="d_link_about_company">Projects</a>
+            </li>
+            <li class="dLink_sets">
+                <a href="./partners_EN.html" class="d_link_about_company">Partners</a>
+            </li>
+            <li class="dLink_sets">
+                <a href="#bottom" class="d_link_about_company">Contacts</a>
+            </li>
+        </ul>
+        <div class="address" id="address">Oleksandra Polia Ave., 42/181
+            <br>Dnipro, Ukraine, 49031
+            <br>E-mail: <u>mail@km-technik.com.ua</u> www.km-technik.com.ua
+            <br>Commercial department:
+            <br>E-mail: <u>kmt190209@ukr.net</u>
+            <br>phone: +38 (050)482 71 27
+            <br>Project department:
+            <br>E-mail: projection@km-technik.com.ua
+            <br>phone: +38(095)534 85 43
+        </div>
+    </div>
+</body>
+</html>
